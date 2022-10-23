@@ -1,0 +1,112 @@
+.project_section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_image{
+    width: 50%;
+}
+
+
+body {
+    padding: 25px;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(240, 174, 181);
+   
+  }
+
+.project_all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_search{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.bird_image{
+    width:50%;
+}
+
+.project_play{
+    text-align: center;
+    flex-direction: column;
+    justify-content: middle;
+    width: 100%;
+}
+
+.part2btn{
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    background-color:#7ec1f5;
+    border-radius: 20px;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    border: 2px solid #f0f292;
+}
+
+.part1btn{
+    height: 40px;
+    font-family: 'Secular One', sans-serif;
+    background-color:#9eb4f7;
+    border-radius: 40px;
+    color: #ffffff;
+    border: 2px solid #c9dfa7;
+}
+
+button:active{
+    background:rgb(119, 195, 247);
+    border: 2px solid #f299bb;
+}
+
+.input{
+    border-radius: 40px;
+    height:40px;
+    border: 2px solid #aad5f6;
+}
+
+.Birdcycle{
+    padding: 25px;
+    align-items: center;
+    width:200px;
+}
+
+.bird-button{
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+#canvas-container {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.project_sub-heading{
+    color: #0376ce;
+    color: #174454;
+
+}
+#bird-container {
+    padding-top: 20px; 
+    background-color:  rgb(240, 174, 181);
+    height: 200px;
+}
+
+#bird-container > img {
+    max-width: 200px;
+} 
