@@ -1,0 +1,16 @@
+Background Image:
+https://css-tricks.com/perfect-full-page-background-image/ 
+
+
+Custom Mouse Cursor:
+https://blog.logrocket.com/creating-custom-mouse-cursor-css/
+
+1. Be aware of the requirements for the image:
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+"While the specification does not limit the cursor image size, user agents commonly restrict them to avoid potential misuse. For example, on Firefox and Chromium cursor images are restricted to 128x128 pixels by default, but it is recommended to limit the cursor image size to 32x32 pixels. Cursor changes using images that are larger than the user-agent maximum supported size will generally just be ignored."
+
+2. Be aware of where the user will not click to select items. You might have to offset the image to improve usability.
+"Optional x- and y-coordinates indicating the cursor hotspot; the precise position within the cursor that is being pointed to.
+
+The numbers are in units of image pixels. They are relative to the top left corner of the image, which corresponds to "0 0", and are clamped within the boundaries of the cursor image. If these values are not specified, they may be read from the file itself, and will otherwise default to the top-left corner of the image."
